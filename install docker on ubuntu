@@ -1,1 +1,44 @@
 
+Installation of Docker on Ubuntu
+
+Step 1: Update package lists
+Open a terminal window and run the following command to update the package lists on your Ubuntu system:
+
+sudo apt update
+
+Step 2: Install dependencies
+Install the necessary dependencies for Docker by running the following command:
+
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+Step 3: Add Docker repository
+Add the Docker repository to your system using the following command:
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository "deb [arch=$(dpkg --print-architecture)] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+Step 4: Install Docker
+Update your package lists again and then install Docker using the following commands:
+
+sudo apt update
+
+sudo apt install docker-ce
+
+Step 5: Start and enable Docker
+Start the Docker service and enable it to start on boot by running the following commands:
+
+sudo systemctl start docker
+
+sudo systemctl enable docker
+
+Step 6: Verify Docker installation
+You can verify that Docker is installed and running by running the following command:
+
+sudo docker --version
+
+This should display the version number of Docker if it is installed correctly.
+
+That's it! Docker should now be installed on your Ubuntu system. You can start using Docker to create and manage containers for your applications.
+
+
