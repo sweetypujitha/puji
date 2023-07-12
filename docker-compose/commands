@@ -1,0 +1,151 @@
+1  cd /
+    2  sudo apt install
+    3  sudo apt update
+    4  sudo apt install docker.io
+    5  docker --version
+    6  docker --help
+    7  docker images
+    8  docker images ls
+    9  docker pull ubuntu
+   10  docker images 
+   11  docker images ls
+   12  docker run 5a
+   13  
+   14  docker run 5a81c4b8502e
+   15  docker ps -a
+   16  docker run node
+   17  history
+   18  cd /
+   19  sudo apt update
+   20  sudo apt install docker.io
+   21  mkdir dockercompose
+   22  cd dockercompose
+   23  dockerfile
+   24  docker dockerfile
+   25  vi dockerfile
+   26  cd ..
+   27  cd dockercompose
+   28  vi docker_compose.yml
+   29  cd /
+   30  mkdir compose
+   31  cd compose
+   32  vi docker-compose.yml
+   33  docker --version
+   34  docker compose --version
+   35  sudo apt update
+   36  sudo apt install docker.io
+   37  vi docker-compose.yml
+   38  docker-compose up
+   39  docker compose up
+   40  vi docker-compose.yml
+   41  docker index.html
+   42  vi docker index.html
+   43  cat docker-compose.yml
+   44  vi docker index.html
+   45  vi myapp
+   46  vi docker-compose.yml
+   47  vi myapp.py
+   48  vi docker-compose.yml
+   49  docker-compose build
+   50  sudo apt docker-compose install
+   51  sudo apt install docker-compose
+   52  docker-compose build
+   53  cat docker-compose.yml
+   54  vi docker-compose.yml
+   55  docker-compose build
+   56  cat docker-compose.yml
+   57  vi docker-compose.yml
+   58  docker-compose build
+   59  vi docker-compose.yml
+   60  docker-compose build
+   61  vi docker-compose.yml
+   62  docker-compose build
+   63  vi docker-compose.yml
+   64  docker-compose build
+   65  cd /
+   66  mkdir myapp
+   67  cd myapp
+   68  sudo apt update
+   69  sudo apt install docker.io
+   70  mkdir mydir
+   71  cd ..
+   72  rm -rf myapp
+   73  ls
+   74  docker ps -a
+   75  mkdir myapp
+   76  mkdir cobra
+   77  cd cobra
+   78  mkdir mydir
+   79  mkdir myapp
+   80  vi app.py
+   81  vi index.html
+   82  ls
+   83  vi dockerfile.app
+   84  cd /
+   85  sudp apt update
+   86  sudo apt update
+   87  sudo apt install docker.io
+   88  mkdir cobraa
+   89  cd cobraa
+   90  mkdir mydir
+   91  mkdir myapp
+   92  ls
+   93  vi app.py1
+   94  vi index.html
+   95  vi dockerfile.app
+   96  vi dockerfile.web
+   97  ls
+   98  vi docker-compose.yml
+   99  docker-compose build
+  100  supo apt install docker-compose
+  101  docker-compose build
+  102  sudo apt install docker-compose
+  103  docker-compose build
+  104  docker-compose up -d
+  105  ls
+  106  vi docker-compose.yml
+  107  docker-compose build
+  108  docker-compose up -d
+  109  docker-compose down -d
+  110  ls
+  111  cat docker-compose.yml
+  112  history
+  113  ls
+  114  cd cobraa
+  115  vi dockerfile
+  116  vi dockerfile.app
+  117  vi dockerfile.web
+  118  vi dockerfile
+  119  cat docker-compose.yml
+  120  vi docker-compose.yml
+  121  docker-compose build
+  122  docker pa -a
+  123  docker ps -a
+  124  vi docker-compose.yml
+  125  ls
+  126  cd mydir
+  127  ls
+  128  vi docker-compose.yml
+  129  cd ..
+  130  vi docker-compose.yml
+  131  vi dockerfile
+  132  vi docker-compose.yml
+  133  docker-compose down -d
+  134  docker-compose up -d
+  135  cd /
+  136  ls
+  137  cd cobraa
+  138  ls
+  139  cd mydir
+  140  vi dockerfile
+  141  vi index.html
+  142  vi app.py
+  143  vi docker-compose.yml
+  144  docker-compose build
+  145  docker-compose up -d
+  146  docker-compose down -d
+  147  vi index.html
+  148  docker-compose build
+  149  docker-compose up -d
+  150  docker-compose down -d
+  151  history
